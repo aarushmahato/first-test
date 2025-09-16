@@ -1,3 +1,2 @@
-# first-test
-hello 
-hello myh name is aarush mahto 
+hello world its me aarush mahto for kathmandu nepal 
+
