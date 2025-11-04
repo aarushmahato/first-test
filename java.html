@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="webheader">javascript</h2>
+    <p id="demo">click the button to change this text</p>
+    <button onclick="buttonisclicked()">click me</button>
+    <script >
+         
+          buttonisclicked() {
+           
+           let  webheader = document.getElementById("webheader");
+           let demo = document.getElementById("demo")
+
+
+           webheader.innerHTML="javascript function is called"
+           demo.innerHTML="yes the button is clcicled successfully"
+
+          }
+    </script>
+</body>
+</html>
